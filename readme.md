@@ -9,9 +9,8 @@
   </a>
   <h3 align="center">Meeting Calendar</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A simple and efficient tool for scheduling, viewing, and managing meetings.
 </div>
 
 <br />
@@ -51,11 +50,7 @@
 ---
 
 ## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-
-Description of the project in details.
+This project provides a space for managing time-based activities in a structured way. It includes features that help users keep track of important events, view schedules, and make adjustments as needed. The overall goal is to support better planning and coordination through a simple and intuitive interface.
 
 ### Key Components
 - Authentication & Authorization
