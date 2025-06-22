@@ -1,0 +1,16 @@
+{
+    "name": "oxina/ad-meeting-calendar",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Oxina\\AdMeetingCalendar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sdoxina",
+            "email": "202311026@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}
