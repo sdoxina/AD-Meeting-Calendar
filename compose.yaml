@@ -22,7 +22,7 @@ services:
       - postgresql
 
   mongodb:
-    image: mongo:latest
+    image: mongo:6.0
     container_name: ad-meeting-calendar-mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
@@ -39,7 +39,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: mysecurepass
       POSTGRES_DB: newdatabase
     ports:
       - "5112:5432"
