@@ -12,5 +12,7 @@
             "email": "202311026@fit.edu.ph"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
