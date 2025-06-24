@@ -3,7 +3,7 @@
 $host = "host.docker.internal"; 
 $port = "5112";
 $username = "user";
-$password = "password";
+$password = "mysecurepass";
 $dbname = "newdatabase";
 
 $conn_string = "host=$host port=$port dbname=$dbname user=$username password=$password";
