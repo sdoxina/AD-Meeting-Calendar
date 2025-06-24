@@ -17,6 +17,8 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=sdoxina/AD-Meeting-Calendar)
 
+[![wakatime](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/e888d431-5e84-4100-9b5f-54dcc08529b3.svg)](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/e888d431-5e84-4100-9b5f-54dcc08529b3)
+
 ---
 
 <br />
