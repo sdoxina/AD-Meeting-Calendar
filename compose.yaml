@@ -14,8 +14,12 @@ services:
           action: rebuild
         - path: ./composer.lock
           action: rebuild
+    volumes:
+      - .:/var/www/html                     # Mount project files
+      - ./.env:/var/www/html/.env           # ✅ Mount .env file
     depends_on:
       - mongodb
+      - postgresql
 
   mongodb:
     image: mongo:latest
@@ -23,7 +27,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: rootPassword
-      MONGO_INITDB_DATABASE: myDB
+      MONGO_INITDB_DATABASE: newdatabase
     ports:
       - "27111:27017"
     volumes:
@@ -36,7 +40,7 @@ services:
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: myDB
+      POSTGRES_DB: newdatabase
     ports:
       - "5112:5432"
     volumes:
