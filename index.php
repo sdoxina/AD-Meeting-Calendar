@@ -4,7 +4,7 @@ require_once LAYOUTS_PATH . "/main.layout.php";
 $mongoCheckerResult = require_once HANDLERS_PATH . "/mongodbChecker.handler.php";
 $postgresqlCheckerResult = require_once HANDLERS_PATH . "/postgreChecker.handler.php";
 
-$title = "Landing Page";
+$title = "Meeting Calendar";
 
 // functions that will render the layout of your choosing
 renderMainLayout(
@@ -15,11 +15,10 @@ renderMainLayout(
     <!-- Hero Section -->
     <section class="flex flex-col justify-center items-center w-full h-[95dvh] max-h-[1080px] hero">
         <h2 class="font-black text-4xl">
-            Stay on Track. Collaborate. Conquer Your Tasks.
+            Organize. Schedule. Collaborate.
         </h2>
         <h2 class="font-black text-gray-500 text-2xl text-center">
-            AD-TaskManager brings designers, QAs, coders, and leaders together in a seamless workflow. From concept to
-            completion, every step is transparent, accountable, and under your control.
+            The Meeting Calendar helps teams align, book meetings seamlessly, and stay productive. Plan your agenda and collaborate without hassle.
         </h2>
     </section>
 
@@ -28,8 +27,8 @@ renderMainLayout(
         <div class="gap-4 grid grid-cols-3 grid-flow-row-dense container Features">
             <?php foreach ($featuresList as $value): ?>
                 <div class="flex flex-col gap-4 p-4 pb-14 border rounded-lg">
-                    <img src=<?php echo $value['image'] ?> alt=""
-                        class="bg-gray-400 rounded-md rounded-md object-cover aspect-square">
+                    <img src="<?php echo $value['image'] ?>" alt=""
+                        class="bg-gray-400 rounded-md object-cover aspect-square">
                     <h3 class="font-bold text-xl"><?php echo $value["title"] ?></h3>
                     <p class="font-semibold text-gray-500">
                         <?php echo $value['description'] ?>
@@ -39,20 +38,19 @@ renderMainLayout(
                                 echo $postgresqlCheckerResult;
                             } ?>
                         <br>
-
                     </p>
                 </div>
             <?php endforeach; ?>
         </div>
     </section>
 
-    <!-- Catch Phrase -->
+    <!-- Call to Action -->
     <section class="flex flex-col justify-center items-center my-42 w-full max-h-[200px]">
-        <h3 class="font-black text-4xl">Get Started – Explore Demo</h3>
-        <p class="text-gray-500 text-xl">See How It Works</p>
+        <h3 class="font-black text-4xl">Get Started – Plan Your First Meeting</h3>
+        <p class="text-gray-500 text-xl">Try the demo and see how easy scheduling can be</p>
     </section>
     <?php
     },
     $title
 )
-    ?>
+?>
