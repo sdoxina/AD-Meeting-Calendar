@@ -14,11 +14,11 @@ renderMainLayout(
         ?>
     <!-- Hero Section -->
     <section class="flex flex-col justify-center items-center w-full h-[95dvh] max-h-[1080px] hero">
-        <h2 class="font-black text-4xl">
-            Organize. Schedule. Collaborate.
+        <h2 class="font-black text-4xl text-center">
+            A Simple and Efficient Tool for Scheduling Meetings
         </h2>
-        <h2 class="font-black text-gray-500 text-2xl text-center">
-            The Meeting Calendar helps teams align, book meetings seamlessly, and stay productive. Plan your agenda and collaborate without hassle.
+        <h2 class="font-black text-gray-500 text-2xl text-center mt-4">
+            Plan, view, and manage meetings with ease. Stay organized and connected with your team.
         </h2>
     </section>
 
@@ -37,7 +37,6 @@ renderMainLayout(
                                 echo $mongoCheckerResult;
                                 echo $postgresqlCheckerResult;
                             } ?>
-                        <br>
                     </p>
                 </div>
             <?php endforeach; ?>
@@ -46,11 +45,11 @@ renderMainLayout(
 
     <!-- Call to Action -->
     <section class="flex flex-col justify-center items-center my-42 w-full max-h-[200px]">
-        <h3 class="font-black text-4xl">Get Started – Plan Your First Meeting</h3>
-        <p class="text-gray-500 text-xl">Try the demo and see how easy scheduling can be</p>
+        <h3 class="font-black text-4xl text-center">Get Started – Plan Your First Meeting</h3>
+        <p class="text-gray-500 text-xl text-center mt-2">Try the demo and experience effortless meeting scheduling</p>
     </section>
     <?php
     },
     $title
-)
+);
 ?>
