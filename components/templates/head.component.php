@@ -29,6 +29,7 @@ function head($pageTitle, array $pageCss = [])
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    font-family: Poppins, sans-serif;
                 }
             </style>
 
