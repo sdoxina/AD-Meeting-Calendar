@@ -3,9 +3,9 @@ function footerComponent()
 {
     include_once STATICDATAS_PATH . "/footer.staticData.php";
     ?>
-    <footer class="flex justify-center items-center bg-gray-300 dark:bg-gray-500 w-full">
+    <footer class="flex justify-center items-center bg-yellow-200 dark:bg-gray-500 w-full">
         <div class="flex justify-between items-center px-4 py-8 w-full container">
-            <img src="/assets/img/nyebe_white.png" class="invert dark:invert-[0] mr-3 h-9 sm:h-12" alt="nyebe" />
+            <img src="/assets/img/buttonconeLogo.png" class="mr-3 h-9 sm:h-12" alt="nyebe" />
             <div class="flex gap-8">
                 <?php foreach ($footerLinks as $link): ?>
                     <div class="flex flex-col">
