@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sdoxina/">
-    <img src="./assets/img/meetingCalendarLogo.png" alt="Meeting Calendar" width="130" height="130">
+    <img src="./assets/img/buttonconeLogo.png" alt="Meeting Calendar" width="75%" height="auto">
   </a>
   <h3 align="center">Meeting Calendar</h3>
 </div>
