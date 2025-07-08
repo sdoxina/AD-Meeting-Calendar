@@ -69,7 +69,7 @@ foreach ($tables as $table) {
 echo "✅ Schema reset complete. Ready to seed…\n";
 
 // ——— Load Dummy Data ———
-define('DUMMIES_PATH', __DIR__ . '/../staticData/dummies');
+define('DUMMIES_PATH', __DIR__ . '/../staticDatas/dummies');
 
 // Example: load USERS dummy data
 $users = require_once DUMMIES_PATH . '/users.staticData.php';
